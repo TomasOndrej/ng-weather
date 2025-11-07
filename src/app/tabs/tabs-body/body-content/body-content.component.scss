@@ -1,0 +1,13 @@
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  background-color: #F5F5F5;
+  padding: 10px;
+}
+
+.content ::ng-deep > div:first-child {
+  padding-top: 30px;
+}
